@@ -1,0 +1,65 @@
+﻿@using ASP_mvc_to_excel.Properties;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<head>
+    @*   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    *@
+
+    <title>Students to Excel</title>
+</head>
+<body>
+    <h1 id="title">All Students:</h1>
+    <h2 id="kop">Select multiple students to export or export all the students</h2>
+    <div id="dvCustomers">
+        <table id="infoTable">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Year</th>
+            </tr>
+
+            <tr class="column">
+                <td class="item" name="id">1</td>
+                <td class="item" name="StudentName">Swen</td>
+                <td class="item" name="StudentAge">19</td>
+                <td class="item" name="StudentYear">3</td>
+            </tr>
+            <tr class="column">
+                <td class="item" name="id">2</td>
+                <td class="item" name="StudentName">Anthony</td>
+                <td class="item" name="StudentAge">19</td>
+                <td class="item" name="StudentYear">3</td>
+            </tr>
+            <tr class="column">
+                <td class="item" name="id">3</td>
+                <td class="item" name="StudentName">Hans</td>
+                <td class="item" name="StudentAge">25</td>
+                <td class="item" name="StudentYear">4</td>
+            </tr>
+            <tr class="column">
+                <td class="item" name="id">4</td>
+                <td class="item" name="StudentName">Frank</td>
+                <td class="item" name="StudentAge">21</td>
+                <td class="item" name="StudentYear">4</td>
+            </tr>
+            <tr class="column">
+                <td class="item" name="id">5</td>
+                <td class="item" name="StudentName">Jan</td>
+                <td class="item" name="StudentAge">23</td>
+                <td class="item" name="StudentYear">2</td>
+            </tr>
+        </table>
+        <input type="hidden" name="info" />
+        <input type="button" id="btnSubmit" value="Export" />
+        <input type="button" id="allInfo" value="Export all students"/>
+    </div>
+</body>
+
+@section Scripts {
+    <script src="~/js/Students.js"></script>
+}
