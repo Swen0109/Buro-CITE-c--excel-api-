@@ -30,9 +30,13 @@ body {
     transform:translate(-50%);
     top:250px;
     text-align:center;
-    border:2px solid black;
     font-family:Arial;
     font-size:18px;
+}
+
+#infoTable tr td {
+    border: double;
+    border-color: #000000;
 }
 
 .column:hover{
@@ -115,9 +119,13 @@ input:hover{
     transform: translate(-50%);
     top: 250px;
     text-align: center;
-    border: 2px solid black;
     font-family: Arial;
     font-size: 18px;
+}
+
+#teacherTable tr td {
+    border: double;
+    border-color: #000000;
 }
 
 #submitTeacher {

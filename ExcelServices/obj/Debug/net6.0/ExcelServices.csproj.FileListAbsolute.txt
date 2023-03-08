@@ -15,3 +15,20 @@ C:\Users\ssperling\source\repos\ASP mvc to excel\ExcelServices\obj\Debug\net6.0\
 C:\Users\ssperling\source\repos\ASP mvc to excel\ExcelServices\obj\Debug\net6.0\refint\ExcelServices.dll
 C:\Users\ssperling\source\repos\ASP mvc to excel\ExcelServices\obj\Debug\net6.0\ExcelServices.pdb
 C:\Users\ssperling\source\repos\ASP mvc to excel\ExcelServices\obj\Debug\net6.0\ref\ExcelServices.dll
+C:\Users\ssperling\source\repos\ASP to excel\ExcelServices\bin\Debug\net6.0\ExcelServices.deps.json
+C:\Users\ssperling\source\repos\ASP to excel\ExcelServices\bin\Debug\net6.0\ExcelServices.dll
+C:\Users\ssperling\source\repos\ASP to excel\ExcelServices\bin\Debug\net6.0\ExcelServices.pdb
+C:\Users\ssperling\source\repos\ASP to excel\ExcelServices\bin\Debug\net6.0\ExcelData.dll
+C:\Users\ssperling\source\repos\ASP to excel\ExcelServices\bin\Debug\net6.0\ExcelHelpers.dll
+C:\Users\ssperling\source\repos\ASP to excel\ExcelServices\bin\Debug\net6.0\ExcelHelpers.pdb
+C:\Users\ssperling\source\repos\ASP to excel\ExcelServices\bin\Debug\net6.0\ExcelData.pdb
+C:\Users\ssperling\source\repos\ASP to excel\ExcelServices\obj\Debug\net6.0\ExcelServices.csproj.AssemblyReference.cache
+C:\Users\ssperling\source\repos\ASP to excel\ExcelServices\obj\Debug\net6.0\ExcelServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ssperling\source\repos\ASP to excel\ExcelServices\obj\Debug\net6.0\ExcelServices.AssemblyInfoInputs.cache
+C:\Users\ssperling\source\repos\ASP to excel\ExcelServices\obj\Debug\net6.0\ExcelServices.AssemblyInfo.cs
+C:\Users\ssperling\source\repos\ASP to excel\ExcelServices\obj\Debug\net6.0\ExcelServices.csproj.CoreCompileInputs.cache
+C:\Users\ssperling\source\repos\ASP to excel\ExcelServices\obj\Debug\net6.0\ExcelServices.csproj.CopyComplete
+C:\Users\ssperling\source\repos\ASP to excel\ExcelServices\obj\Debug\net6.0\ExcelServices.dll
+C:\Users\ssperling\source\repos\ASP to excel\ExcelServices\obj\Debug\net6.0\refint\ExcelServices.dll
+C:\Users\ssperling\source\repos\ASP to excel\ExcelServices\obj\Debug\net6.0\ExcelServices.pdb
+C:\Users\ssperling\source\repos\ASP to excel\ExcelServices\obj\Debug\net6.0\ref\ExcelServices.dll

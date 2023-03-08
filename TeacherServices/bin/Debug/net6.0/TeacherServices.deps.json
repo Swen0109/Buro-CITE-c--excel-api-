@@ -10,6 +10,7 @@
         "dependencies": {
           "ExcelData": "1.0.0",
           "ExcelHelpers": "1.0.0",
+          "ExcelLanguagePackage": "1.0.0",
           "TeacherHelpers": "1.0.0"
         },
         "runtime": {
@@ -312,6 +313,11 @@
           "ExcelHelpers.dll": {}
         }
       },
+      "ExcelLanguagePackage/1.0.0": {
+        "runtime": {
+          "ExcelLanguagePackage.dll": {}
+        }
+      },
       "TeacherHelpers/1.0.0": {
         "dependencies": {
           "ExcelData": "1.0.0"
@@ -530,6 +536,11 @@
       "sha512": ""
     },
     "ExcelHelpers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExcelLanguagePackage/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

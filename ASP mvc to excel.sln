@@ -17,9 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. GUI", "1. GUI", "{F48E62
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. DAL", "3. DAL", "{4D8854BE-865F-456C-A554-F915F8D46421}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherHelpers", "TeacherHelpers\TeacherHelpers.csproj", "{04E9F9DA-2B2B-4EE1-93D4-FC3CC934113C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeacherHelpers", "TeacherHelpers\TeacherHelpers.csproj", "{04E9F9DA-2B2B-4EE1-93D4-FC3CC934113C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherServices", "TeacherServices\TeacherServices.csproj", "{93712913-C1BB-4298-A689-DC0F7FE3B768}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeacherServices", "TeacherServices\TeacherServices.csproj", "{93712913-C1BB-4298-A689-DC0F7FE3B768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelLanguagePackage", "ExcelLanguagePackage\ExcelLanguagePackage.csproj", "{EC4DAE1C-0CE7-4912-8992-2A363D07E0EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{93712913-C1BB-4298-A689-DC0F7FE3B768}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93712913-C1BB-4298-A689-DC0F7FE3B768}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93712913-C1BB-4298-A689-DC0F7FE3B768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4DAE1C-0CE7-4912-8992-2A363D07E0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4DAE1C-0CE7-4912-8992-2A363D07E0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4DAE1C-0CE7-4912-8992-2A363D07E0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4DAE1C-0CE7-4912-8992-2A363D07E0EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

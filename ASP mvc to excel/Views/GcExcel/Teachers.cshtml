@@ -1,28 +1,27 @@
-﻿@using ASP_mvc_to_excel.Properties;
-@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿
 @{
 }
 
 <head>
-    @*   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    *@
-
     <title>Teachers to Excel</title>
 </head>
+
 <body>  
-    <h1 id="title">All Teachers:</h1>
+    <h1 id="title">All Teachers</h1>
     <h2 id="kop">Select multiple teachers to export or export all the teachers</h2>
     <div id="dvTeachers">
-        <table id="teacherTable">
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Experience</th>
-            </tr>
             
+        <table id="teacherTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Experience</th>
+                </tr>
+            </thead>
+
+            <tbody>
             <tr class="column">
                 <td class="item" name="id">1</td>
                 <td class="item" name="TeacherName">Frank</td>
@@ -53,10 +52,13 @@
                 <td class="item" name="TeacherAge">42</td>
                 <td class="item" name="TeacherExperience">18</td>
             </tr>
+            </tbody>
         </table>
-        <input type="hidden" name="info" />
-        <input type="button" id="submitTeacher" value="Export" />
-        <input type="button" id="allTeachers" value="Export all teachers" />
+                                  
+        <div class="inputs">
+            <input type="button" id="submitTeacher" value="Export" />
+            <input type="button" id="allTeachers" value="Export all teachers" />
+        </div>
     </div>
 </body>
 

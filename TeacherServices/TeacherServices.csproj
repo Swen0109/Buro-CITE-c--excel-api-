@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ExcelData\ExcelData.csproj" />
     <ProjectReference Include="..\ExcelHelpers\ExcelHelpers.csproj" />
+    <ProjectReference Include="..\ExcelLanguagePackage\ExcelLanguagePackage.csproj" />
     <ProjectReference Include="..\TeacherHelpers\TeacherHelpers.csproj" />
   </ItemGroup>
 

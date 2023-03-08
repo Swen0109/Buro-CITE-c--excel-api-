@@ -4,18 +4,21 @@
     {
         public int? id { get; set; }
 
-        public string? StudentName {
+        public string? StudentName
+        {
             get;
             set;
         }
 
-        public int? StudentAge {
-            get; 
+        public int? StudentAge
+        {
+            get;
             set;
         }
-        
-        public int? StudentYear{
-            get; 
+
+        public int? StudentYear
+        {
+            get;
             set;
         }
     }

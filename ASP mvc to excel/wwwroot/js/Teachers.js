@@ -40,8 +40,6 @@ function exportTeachersToExcel(teachers) {
         url: "/GcExcel/PostTeacherInfo",
         type: "POST",
         data: { teachers: teachers },
-        success: function () { alert("The teachers have successfuly been exported to excel. Check you're files for the excel file with teachers.") },
-        error: function () { alert("Unfortunately we failed to export the teachers to excel.") },
     }); 
 }
 
@@ -51,7 +49,6 @@ function exportSelectedTeachersToExcel(teachers) {
         url: "/GcExcel/PostTeacherInfo",
         type: "POST",
         data: { teachers: teachers },
-        error: function () { alert("Unfortunately we failed to export the teachers to excel.") },
     });
 }
 
@@ -63,7 +60,7 @@ $(document).ready(function () {
         $(this).addClass("column");
         let allTeachers = getAllTeachers();
         exportTeachersToExcel(allTeachers);
-    })
+    });
 
     $("#teacherTable tr").click(function () {
         $(this).toggleClass("active_row");
@@ -80,21 +77,31 @@ $(document).ready(function () {
     $("#submitTeacher").click(function () {
         let singleTeacher = getSelectedTeacher();
         getBtn.className = "display";
-        
+
         if (singleTeacher == 0) {
-            alert("You have to select at least 1 teacher before u can export!")
+            alert("You have to select at least 1 teacher before u can export any teacher!")
         }
- 
+
         else if (singleTeacher.length == 1) {
             alert(JSON.stringify(singleTeacher[0].TeacherName + "'s been successfuly exported to excel! Check you're files for the excel file."));
             $("#teacherTable tr").removeClass("active_row");
             exportSelectedTeachersToExcel(singleTeacher);
-        }       
-                            
+        }
+
+        else if (singleTeacher == false) {
+            alert("Sorry, we failed to retrieve the selected teacher data..")
+        }
+
         else {
             alert("The selected teachers have been exported.");
             $("#teacherTable tr").removeClass("active_row");
             exportSelectedTeachersToExcel(singleTeacher);
         }
     });
+
+    $("#teacherTable th").click(function () {
+
+        
+
+    })
 });

@@ -1,0 +1,14 @@
+C:\Users\ssperling\source\repos\ASP to excel\ExcelLanguagePackage\bin\Debug\net6.0\ExcelLanguagePackage.deps.json
+C:\Users\ssperling\source\repos\ASP to excel\ExcelLanguagePackage\bin\Debug\net6.0\ExcelLanguagePackage.dll
+C:\Users\ssperling\source\repos\ASP to excel\ExcelLanguagePackage\bin\Debug\net6.0\ExcelLanguagePackage.pdb
+C:\Users\ssperling\source\repos\ASP to excel\ExcelLanguagePackage\obj\Debug\net6.0\ExcelLanguagePackage.csproj.AssemblyReference.cache
+C:\Users\ssperling\source\repos\ASP to excel\ExcelLanguagePackage\obj\Debug\net6.0\ExcelLanguagePackage.Resources.resources
+C:\Users\ssperling\source\repos\ASP to excel\ExcelLanguagePackage\obj\Debug\net6.0\ExcelLanguagePackage.csproj.GenerateResource.cache
+C:\Users\ssperling\source\repos\ASP to excel\ExcelLanguagePackage\obj\Debug\net6.0\ExcelLanguagePackage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ssperling\source\repos\ASP to excel\ExcelLanguagePackage\obj\Debug\net6.0\ExcelLanguagePackage.AssemblyInfoInputs.cache
+C:\Users\ssperling\source\repos\ASP to excel\ExcelLanguagePackage\obj\Debug\net6.0\ExcelLanguagePackage.AssemblyInfo.cs
+C:\Users\ssperling\source\repos\ASP to excel\ExcelLanguagePackage\obj\Debug\net6.0\ExcelLanguagePackage.csproj.CoreCompileInputs.cache
+C:\Users\ssperling\source\repos\ASP to excel\ExcelLanguagePackage\obj\Debug\net6.0\ExcelLanguagePackage.dll
+C:\Users\ssperling\source\repos\ASP to excel\ExcelLanguagePackage\obj\Debug\net6.0\refint\ExcelLanguagePackage.dll
+C:\Users\ssperling\source\repos\ASP to excel\ExcelLanguagePackage\obj\Debug\net6.0\ExcelLanguagePackage.pdb
+C:\Users\ssperling\source\repos\ASP to excel\ExcelLanguagePackage\obj\Debug\net6.0\ref\ExcelLanguagePackage.dll

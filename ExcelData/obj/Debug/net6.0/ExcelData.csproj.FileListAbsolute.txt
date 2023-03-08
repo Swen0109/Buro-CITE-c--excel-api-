@@ -10,3 +10,15 @@ C:\Users\ssperling\source\repos\ASP mvc to excel\ExcelData\obj\Debug\net6.0\Exce
 C:\Users\ssperling\source\repos\ASP mvc to excel\ExcelData\obj\Debug\net6.0\refint\ExcelData.dll
 C:\Users\ssperling\source\repos\ASP mvc to excel\ExcelData\obj\Debug\net6.0\ExcelData.pdb
 C:\Users\ssperling\source\repos\ASP mvc to excel\ExcelData\obj\Debug\net6.0\ref\ExcelData.dll
+C:\Users\ssperling\source\repos\ASP to excel\ExcelData\bin\Debug\net6.0\ExcelData.deps.json
+C:\Users\ssperling\source\repos\ASP to excel\ExcelData\bin\Debug\net6.0\ExcelData.dll
+C:\Users\ssperling\source\repos\ASP to excel\ExcelData\bin\Debug\net6.0\ExcelData.pdb
+C:\Users\ssperling\source\repos\ASP to excel\ExcelData\obj\Debug\net6.0\ExcelData.csproj.AssemblyReference.cache
+C:\Users\ssperling\source\repos\ASP to excel\ExcelData\obj\Debug\net6.0\ExcelData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ssperling\source\repos\ASP to excel\ExcelData\obj\Debug\net6.0\ExcelData.AssemblyInfoInputs.cache
+C:\Users\ssperling\source\repos\ASP to excel\ExcelData\obj\Debug\net6.0\ExcelData.AssemblyInfo.cs
+C:\Users\ssperling\source\repos\ASP to excel\ExcelData\obj\Debug\net6.0\ExcelData.csproj.CoreCompileInputs.cache
+C:\Users\ssperling\source\repos\ASP to excel\ExcelData\obj\Debug\net6.0\ExcelData.dll
+C:\Users\ssperling\source\repos\ASP to excel\ExcelData\obj\Debug\net6.0\refint\ExcelData.dll
+C:\Users\ssperling\source\repos\ASP to excel\ExcelData\obj\Debug\net6.0\ExcelData.pdb
+C:\Users\ssperling\source\repos\ASP to excel\ExcelData\obj\Debug\net6.0\ref\ExcelData.dll

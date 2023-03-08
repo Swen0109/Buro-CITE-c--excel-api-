@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+bYbLTQPL5zRxPrSrDufR1j7n0DdB/dHlp5TFIifm24B/eDSp8LS/RjWmaZl5aRwTq1/KlbEGmrSbvsNy0GvsQ==",
+  "dgSpecHash": "8BRZz3YnNyI7sVMfeiNqAAOXo6YPFFt0qRaCFm0aZVH9l1/ZcpkmqswG42R+uWiVhIZGRd9+0h9/x31p12UNkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ssperling\\source\\repos\\ASP mvc to excel\\ExcelServices\\ExcelServices.csproj",
+  "projectFilePath": "C:\\Users\\ssperling\\source\\repos\\ASP to excel\\ExcelServices\\ExcelServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ssperling\\.nuget\\packages\\grapecity.documents.barcode\\6.0.0\\grapecity.documents.barcode.6.0.0.nupkg.sha512",
     "C:\\Users\\ssperling\\.nuget\\packages\\grapecity.documents.dx.windows\\6.0.0\\grapecity.documents.dx.windows.6.0.0.nupkg.sha512",

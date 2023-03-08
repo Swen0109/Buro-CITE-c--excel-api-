@@ -1,4 +1,5 @@
 ﻿using ExcelData;
+using ExcelLanguagePackage;
 using GrapeCity.Documents.Excel;
 using TeacherWorksheetCreate;
 using TeacherWorksheetFill;
@@ -15,16 +16,25 @@ namespace TeacherServices
         }
         public void Execute()
         {
-            TeacherWorksheetCreator ewc = new TeacherWorksheetCreator();
-            ewc.Execute();
+            try
+            {
+                TeacherWorksheetCreator ewc = new TeacherWorksheetCreator();
+                ewc.Execute();
 
-            TeacherWorksheetFiller ewf = new TeacherWorksheetFiller(ewc.Worksheet, _teachers);
-            ewf.Execute();
+                TeacherWorksheetFiller ewf = new TeacherWorksheetFiller(ewc.Worksheet, _teachers);
+                ewf.Execute();
 
-            var workBook = ewc.Workbook;
+                var workBook = ewc.Workbook;
 
-            workBook.Save("Teachers.xlsx");
-            workBook.Save("Teachers.pdf", SaveFileFormat.Pdf);
+                workBook.Save("Teachers.xlsx");
+                workBook.Save("Teachers.pdf", SaveFileFormat.Pdf);
+
+                System.Diagnostics.Debug.WriteLine(Resources.PostInfoSucces);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(Resources.PostInfoFailed);
+            }
         }
     }
 }

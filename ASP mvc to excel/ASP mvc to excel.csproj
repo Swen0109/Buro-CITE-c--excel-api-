@@ -9,26 +9,17 @@
 
   <ItemGroup>
     <PackageReference Include="GrapeCity.Documents.Excel" Version="6.0.3" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.9" />
+    <PackageReference Include="Nancy" Version="2.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ExcelData\ExcelData.csproj" />
     <ProjectReference Include="..\ExcelHelpers\ExcelHelpers.csproj" />
+    <ProjectReference Include="..\ExcelLanguagePackage\ExcelLanguagePackage.csproj" />
     <ProjectReference Include="..\ExcelServices\ExcelServices.csproj" />
+    <ProjectReference Include="..\TeacherHelpers\TeacherHelpers.csproj" />
     <ProjectReference Include="..\TeacherServices\TeacherServices.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Update="App_GlobalResources\Resources.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Update="Properties\Resources.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -41,17 +32,6 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Update="App_GlobalResources\Resources.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
   </ItemGroup>
 
 </Project>
