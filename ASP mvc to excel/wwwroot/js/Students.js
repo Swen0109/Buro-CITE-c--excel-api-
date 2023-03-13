@@ -1,4 +1,6 @@
-﻿//Functie om alle studenten en hun leeftijd en id op te halen en in een array studenten met objects te zetten
+﻿const kopje = document.getElementById("kop");
+
+//Functie om alle studenten en hun leeftijd en id op te halen en in een array studenten met objects te zetten
 function getInfoFromHtml() {
 
     let items = $(".column");
@@ -32,7 +34,6 @@ function getSingleStudentInfo() {
     });
     return studenten;
 }
-
 
 //Functie om met ajax de opgehaalde informatie van 1 of alle studenten naar een controller functie te sturen.
 function sendStudentInfo(studenten) {
@@ -76,6 +77,8 @@ $(document).ready(function () {
         $(this).addClass("column");
         let result = getInfoFromHtml();
         sendStudentInfo(result);
+
+        kop.innerHTML = "All the students have been exported to excel.";
     });
 
     //Functie die als er in de html op submit word geklikt de geselecteerde studenten ophaald en die vervolgens ook doorstuurd naar de sendStudentInfo functie maar dan met alleen de geselecteerde student.
@@ -91,6 +94,8 @@ $(document).ready(function () {
             alert(JSON.stringify(singleInfo[0].StudentName + "'s been succesfuly exported to excel!"));
             $("#infoTable tr").removeClass("active_row");
             sendSelectedStudentInfo(singleInfo);
+
+            kopje.innerHTML = "The selected student has been exported to excel";
         }          
 
         else if (singleInfo == false) {
@@ -104,13 +109,3 @@ $(document).ready(function () {
         }
     });
 });
-
-
-function getWeatherForCastTest() {
-    $.ajax({
-        url: "/GcExcel/PostStudentInfo",
-        type: "POST",
-        data: { studenten: studenten },
-        success: function () { alert("You're students have successfuly been exported to excel.") },
-    });
-}

@@ -163,3 +163,80 @@ footer>h3{
 .display{
     display:inline;
 }
+
+#envelope{
+    position:absolute;
+    left:50%;
+    transform:translate(-50%);
+    top:305px;
+    font-family:Arial;
+    font-size:20px;
+}
+
+#phone{
+    position:absolute;
+    left:50%;
+    transform:translate(-50%);
+    top:355px;
+    font-family:Arial;
+    font-size:20px;
+}
+
+#location{
+    position:absolute;
+    left:50%;
+    transform:translate(-50%);
+    top:405px;
+    font-family:Arial;
+    font-size:20px;
+}
+
+#Icons>h2{
+    position:absolute;
+    left:50%;
+    transform:translate(-50%);
+    top:250px;
+}
+
+#Socials{
+    position:absolute;
+    left:50%;
+    transform:translate(-50%);
+    top:470px;
+}
+
+#instagram{
+    position:absolute;
+    left:50%;
+    transform:translate(-50%);
+    top:50px;
+    font-size:40px;
+    color:black;
+}
+
+#linkedIn {
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    top:120px;
+    font-size: 40px;
+    color:black;
+}
+
+#facebook{
+    position:absolute;
+    left:50%;
+    transform:translate(-50%);
+    top:190px;
+    font-size:40px;
+    color:black;
+}
+
+#github {
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    top:260px;
+    font-size:40px;
+    color:black;
+}

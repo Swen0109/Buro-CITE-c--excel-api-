@@ -1,5 +1,6 @@
-﻿function getAllTeachers() {
+﻿const kopje = document.getElementById("kop");
 
+function getAllTeachers() {
     let items = $(".column");
     var teacher = {};
     var teachers = [];
@@ -35,7 +36,7 @@ function getSelectedTeacher(){
 }
 
 function exportTeachersToExcel(teachers) {
-
+    
     $.ajax({
         url: "/GcExcel/PostTeacherInfo",
         type: "POST",
@@ -49,6 +50,7 @@ function exportSelectedTeachersToExcel(teachers) {
         url: "/GcExcel/PostTeacherInfo",
         type: "POST",
         data: { teachers: teachers },
+        success: function () { alert(JSON.stringify(teachers[0].TeacherName + "has successfuly been exported.")) },
     });
 }
 
@@ -60,6 +62,8 @@ $(document).ready(function () {
         $(this).addClass("column");
         let allTeachers = getAllTeachers();
         exportTeachersToExcel(allTeachers);
+
+        kopje.innerHTML = "All the teachers have been exported to excel";
     });
 
     $("#teacherTable tr").click(function () {
@@ -86,6 +90,8 @@ $(document).ready(function () {
             alert(JSON.stringify(singleTeacher[0].TeacherName + "'s been successfuly exported to excel! Check you're files for the excel file."));
             $("#teacherTable tr").removeClass("active_row");
             exportSelectedTeachersToExcel(singleTeacher);
+
+            kopje.innerHTML = "The selected teacher has been exported to excel.";
         }
 
         else if (singleTeacher == false) {
@@ -98,10 +104,4 @@ $(document).ready(function () {
             exportSelectedTeachersToExcel(singleTeacher);
         }
     });
-
-    $("#teacherTable th").click(function () {
-
-        
-
-    })
 });
